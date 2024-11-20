@@ -1,0 +1,18 @@
+/*Utilidades*/
+@import 'utilidades/variables';
+@import 'utilidades/mixins';
+
+/*Base*/
+@import 'base/reset';   /*¿Para qué sirve el reset y qué debe contener?*/
+@import 'base/header';
+@import 'base/main';
+@import 'base/footer';
+
+@import 'base/bloques';
+@import 'base/botonesnav';
+@import 'base/imagenes';
+@import 'base/mq-mobile';
+@import 'base/mq-tablet';
+@import 'base/textos';
+
+/*¿Tengo que poner un @import para libretas.html y preguntasfrecuentes.html?*/

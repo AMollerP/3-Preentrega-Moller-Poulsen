@@ -1,0 +1,42 @@
+h1
+    {color: $color-fondosecundario;
+    font-family: $tipografia;
+    font-size: $tipografia-grande;
+    font-weight: bold;
+    text-align: center;}
+
+h2
+    {color: $color-principal;
+    font-family: $tipografia;
+    font-size: $tipografia-mediana;
+    font-weight: bold;
+    text-align: center;}
+
+h3
+    {color: $color-principal;
+    font-family: $tipografia;
+    font-size: $tipografia-mediana;
+    font-weight:bold;
+    padding-left: 20px;}
+
+p
+    {color: $color-oscuro;
+    font-family:sans-serif;
+    font-size: $tipografia-chica;
+    font-weight: lighter;
+    font-style: light;
+    text-align: justify;
+    padding: 0px 40px 10px 20px;}
+
+.textoproductos
+    {text-align: center;
+    font-size: $tipografia-chica;} 
+
+a
+    {font-family: $tipografia;
+    font-size: $tipografia-chica;}
+
+.azul
+    {color:$color-principal;
+    font-size: 20px;
+    margin-top: auto;}

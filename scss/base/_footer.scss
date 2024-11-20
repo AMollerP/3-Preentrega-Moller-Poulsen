@@ -1,0 +1,30 @@
+footer p
+    {width: 100%;
+    height: 10%;
+    background-color: $color-principal;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: $tipografia-chica;
+    text-align: center;
+    color: $color-fondosecundario;}
+
+.iconosredes
+    {display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;                           
+    align-items: center;                   
+    justify-items: center;
+    margin-top: 10px;
+
+    p
+    {margin: 0;}
+
+    a
+    {color: $color-fondosecundario;                   
+    text-decoration: none;             
+    font-size: $tipografia-chica;                  
+    margin-right: 10px;                
+    transition: color 0.3s ease;}
+
+    &:hover 
+    {color: $color-sombra;}}

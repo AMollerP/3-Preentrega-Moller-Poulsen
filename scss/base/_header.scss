@@ -1,0 +1,35 @@
+header
+    {background-color: $color-fondo;
+    padding: 5px;}
+
+.header_superior
+        {display: flex;
+        align-items: center;
+        justify-content: space-between;}
+          
+.block-marca {
+    @include fondo-degradado($color-principal, $color-secundario,)}
+
+    @keyframes DegradeFondo {
+        0%, 100% {
+            background-color: $color-principal; }
+        50% {
+            background-color: $color-secundario;}
+            }
+
+
+body 
+    {height: 100%;
+    margin: 0;}
+
+.logo 
+    {padding: 5px 5px;}
+
+.search
+    {width: 300px;
+    padding:5px}
+
+.container 
+    {display: flex;
+    flex-direction: column; 
+    min-height: 100vh;}

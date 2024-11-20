@@ -1,0 +1,92 @@
+/* Botones Navegación */
+* {
+  box-sizing: border-box;
+}
+
+nav {
+    background-color: $color-fondo;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0px;  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  
+    li {
+      position: relative;
+      margin-left: 20px;
+  
+      a {
+        display: block;
+        padding: 15px;
+        color: $color-principal;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+  
+        &:hover {
+          background-color: $color-principal;
+          color: $color-fondosecundario;
+        }
+      }
+  
+/* Submenú */
+.submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: $color-principal;
+        list-style-type: none;
+        padding: 0;  
+        margin: 0;   
+        border-radius: 10px;
+        z-index: 999;
+        width: 200px;
+  
+        li {
+          margin: 0;  
+        }
+  
+        li a {
+          padding: 10px;
+          color: $color-fondosecundario;
+          text-decoration: none;
+          display: block;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: $color-terciario;
+            color: white;
+          }
+        }
+      }
+  
+      &:hover .submenu {
+        display: block;
+        pointer-events: all;
+      }
+    }
+  }
+  /* Fin Botones Navegación */    
+    
+/*Botones*/
+.item
+    {text-align: center; 
+    margin: 20px;}
+
+.button-comprar
+    {
+    @include boton-estilo($color-principal, $color-fondosecundario);
+  
+    &:hover {
+      background-color: $color-secundario;}}
+  /*Fin Botones*/
+  
